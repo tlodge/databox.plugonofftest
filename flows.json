@@ -1,0 +1,55 @@
+[
+    {
+        "id": "49565ff.f13c0a",
+        "label": "new package",
+        "type": "tab"
+    },
+    {
+        "id": "d4f4ec2f.a9563",
+        "type": "inject",
+        "z": "49565ff.f13c0a",
+        "name": "inject",
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "repeat": 1,
+        "crontab": "",
+        "once": false,
+        "x": 216.5,
+        "y": 280,
+        "wires": [
+            [
+                "49572bbf.62d5d4"
+            ]
+        ]
+    },
+    {
+        "id": "49572bbf.62d5d4",
+        "type": "dbfunction",
+        "z": "49565ff.f13c0a",
+        "name": "",
+        "func": "return {\n    payload: Math.random() > 0.5 ? \"on\": \"off\"\n    \n}",
+        "outputs": 1,
+        "inputtypedef": "",
+        "outputtypedef": "",
+        "noerr": 0,
+        "x": 347.5,
+        "y": 277,
+        "wires": [
+            [
+                "b0dde2fc.f508b"
+            ]
+        ]
+    },
+    {
+        "id": "b0dde2fc.f508b",
+        "type": "plugout",
+        "z": "49565ff.f13c0a",
+        "name": "",
+        "subtype": "TP-SetPowerState",
+        "value": "on",
+        "x": 471.5,
+        "y": 274,
+        "wires": []
+    }
+]

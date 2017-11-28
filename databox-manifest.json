@@ -9,10 +9,10 @@
     "tags": [
         "test"
     ],
-    "homepage": "https://github.com/tlodge/databox.plugonofftest",
+    "homepage": "https://github.com/tlodge/task_plugonoff",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/tlodge/databox.plugonofftest.git"
+        "url": "git+https://github.com/tlodge/task_plugonoff.git"
     },
     "packages": [
         {

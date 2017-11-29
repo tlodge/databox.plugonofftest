@@ -12,7 +12,7 @@
         "topic": "",
         "payload": "",
         "payloadType": "date",
-        "repeat": 1,
+        "repeat": 8,
         "crontab": "",
         "once": false,
         "x": 216.5,

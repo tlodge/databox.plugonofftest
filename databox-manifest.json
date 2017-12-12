@@ -21,8 +21,7 @@
             "purpose": "test",
             "required": false,
             "datastores": [
-                "b0dde2fc.f508b",
-                "eb55dded.29e79"
+                "b0dde2fc.f508b"
             ],
             "benefits": "test"
         }
@@ -34,13 +33,6 @@
             "required": true,
             "name": "plugout",
             "clientid": "b0dde2fc.f508b",
-            "granularities": []
-        },
-        {
-            "type": "set-bulb-on",
-            "required": true,
-            "name": "bulbsout",
-            "clientid": "eb55dded.29e79",
             "granularities": []
         }
     ],

@@ -37,8 +37,7 @@
         "y": 277,
         "wires": [
             [
-                "b0dde2fc.f508b",
-                "eb55dded.29e79"
+                "b0dde2fc.f508b"
             ]
         ]
     },
@@ -51,17 +50,6 @@
         "value": "on",
         "x": 489,
         "y": 324,
-        "wires": []
-    },
-    {
-        "id": "eb55dded.29e79",
-        "type": "bulbsout",
-        "z": "49565ff.f13c0a",
-        "name": "",
-        "subtype": "set-bulb-on",
-        "value": "",
-        "x": 516.5,
-        "y": 216,
         "wires": []
     }
 ]

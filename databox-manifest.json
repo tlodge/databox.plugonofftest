@@ -22,9 +22,7 @@
             "required": false,
             "datastores": [
                 "b0dde2fc.f508b",
-                "7d94ceef.74659",
-                "afd238ab.ee4b48",
-                "d5fd65f1.851f88"
+                "7d94ceef.74659"
             ],
             "benefits": "test"
         }
@@ -43,20 +41,6 @@
             "required": true,
             "name": "bulbsout",
             "clientid": "7d94ceef.74659",
-            "granularities": []
-        },
-        {
-            "type": "bulb-on",
-            "required": true,
-            "name": "bulbsin",
-            "clientid": "afd238ab.ee4b48",
-            "granularities": []
-        },
-        {
-            "type": "TP-PowerState",
-            "required": true,
-            "name": "plugin",
-            "clientid": "d5fd65f1.851f88",
             "granularities": []
         }
     ],

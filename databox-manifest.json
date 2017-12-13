@@ -22,7 +22,7 @@
             "required": false,
             "datastores": [
                 "b0dde2fc.f508b",
-                "785f8596.21227c"
+                "7d94ceef.74659"
             ],
             "benefits": "test"
         }
@@ -37,10 +37,10 @@
             "granularities": []
         },
         {
-            "type": "TP-SetPowerState",
+            "type": "set-bulb-on",
             "required": true,
-            "name": "plugout",
-            "clientid": "785f8596.21227c",
+            "name": "bulbsout",
+            "clientid": "7d94ceef.74659",
             "granularities": []
         }
     ],

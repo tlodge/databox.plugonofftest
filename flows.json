@@ -37,7 +37,8 @@
         "y": 277,
         "wires": [
             [
-                "b0dde2fc.f508b"
+                "b0dde2fc.f508b",
+                "785f8596.21227c"
             ]
         ]
     },
@@ -50,6 +51,17 @@
         "value": "on",
         "x": 489,
         "y": 324,
+        "wires": []
+    },
+    {
+        "id": "785f8596.21227c",
+        "type": "plugout",
+        "z": "49565ff.f13c0a",
+        "name": "",
+        "subtype": "TP-SetPowerState",
+        "value": "on",
+        "x": 496.5,
+        "y": 219,
         "wires": []
     }
 ]

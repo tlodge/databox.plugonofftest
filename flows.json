@@ -63,5 +63,19 @@
         "x": 503.5,
         "y": 213,
         "wires": []
+    },
+    {
+        "id": "afd238ab.ee4b48",
+        "type": "bulbsin",
+        "z": "49565ff.f13c0a",
+        "name": "",
+        "subtype": "bulb-on",
+        "x": 211.5,
+        "y": 179,
+        "wires": [
+            [
+                "49572bbf.62d5d4"
+            ]
+        ]
     }
 ]

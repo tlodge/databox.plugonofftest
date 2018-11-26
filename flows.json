@@ -27,6 +27,7 @@
         "id": "49572bbf.62d5d4",
         "type": "dbfunction",
         "z": "49565ff.f13c0a",
+        "ptype": {},
         "name": "",
         "func": "return {\n    payload: Math.random() > 0.5 ? \"on\": \"off\"\n    \n}",
         "outputs": 1,
@@ -37,21 +38,9 @@
         "y": 277,
         "wires": [
             [
-                "b0dde2fc.f508b",
                 "7d94ceef.74659"
             ]
         ]
-    },
-    {
-        "id": "b0dde2fc.f508b",
-        "type": "plugout",
-        "z": "49565ff.f13c0a",
-        "name": "",
-        "subtype": "TP-SetPowerState",
-        "value": "on",
-        "x": 489,
-        "y": 324,
-        "wires": []
     },
     {
         "id": "7d94ceef.74659",
